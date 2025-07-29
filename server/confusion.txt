@@ -1,0 +1,43 @@
+1 course.js controller line number 28 
+--> tag variable fetch is tag id or tag name ?????
+        //check given tag is valid or not
+        const tagDetails = await Tag.findById(tag);
+
+2 auth.js controller 
+--> sendOTP function when and where use ?? not understand
+--> signup otp verify
+
+3 ratingAndReview.js 
+--->getAverageRating controller confusion
+
+
+TODO
+
+subSection.js controller
+-->updateSubsection --- (just think some issue) done 
+-->DeleteSubsection --- done
+1 subSection update and delete --done
+
+profile.js
+-->deleteAccount controller --done
+2 unenroll user from all enrolled courses --done(i think some issue)
+3 romove review and rationg given by user
+4 how to shedule deletion profile 
+5 explore cron jobs
+6 getuserDetails controller -- done
+
+payment.js
+verifySignature controller
+7 add mail template 
+
+category.js controller
+getCategoryPageDetails
+8 how to calculate top selling course 
+
+
+
+testing ---------
+
+add subsection  - video not uplaod
+get course page details -- subsection not populate
+get user details --> additional details not populate
